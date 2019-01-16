@@ -14,6 +14,7 @@ Import the template ADReplication.xml and the template ADAudit.xml in your zabbi
   - First failure time
   - Last replication error
   - some metadata metrics
+
 3). Each trigger of last error contains the url to support.microsoft.com page of the troubleshooting for error by her id.
 ![problem](https://user-images.githubusercontent.com/39965096/51258163-62942c00-19ba-11e9-88ac-33c31647c8be.PNG)
 ![last data](https://user-images.githubusercontent.com/39965096/51258208-7c357380-19ba-11e9-8627-3d819134a1a3.PNG)
