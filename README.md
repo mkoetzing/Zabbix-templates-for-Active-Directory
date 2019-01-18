@@ -19,23 +19,36 @@ Import the template ADReplication.xml and the template ADAudit.xml in your zabbi
 ![problem](https://user-images.githubusercontent.com/39965096/51258163-62942c00-19ba-11e9-88ac-33c31647c8be.PNG)
 ![last data](https://user-images.githubusercontent.com/39965096/51258208-7c357380-19ba-11e9-8627-3d819134a1a3.PNG)
 4) Audit template triggers (the name of the triggers in Russian language):
-Active Directory: audit template:
-  	Check windows event log (security):
-  	User profile has been blocked
-  	Delete secure local group
-  	User name has been modify
-  	Modify secure local group
-  	Log in successfully
-  	Modify user profile
-  	Delete member local secure group
-  	Add member local secure group
-  	User profile has been created
-  	Log in denied
-  	Attempt to reset the account password
-  	User profile disabled
-  	Secure local group has been created
-  	User profile deleted
-  	Clear audit journal
+User profile has been blocked
+
+Delete secure local group
+
+User name has been modify
+
+Modify secure local group
+
+Log in successfully
+
+Modify user profile
+
+Delete member local secure group
+
+Add member local secure group
+
+User profile has been created
+
+Log in denied
+
+Attempt to reset the account password
+
+User profile disabled
+
+Secure local group has been created
+
+User profile deleted
+
+Clear audit journal
+
 ![audit](https://user-images.githubusercontent.com/39965096/51258362-d9c9c000-19ba-11e9-932e-fc90228cd6a2.PNG)
 
 
