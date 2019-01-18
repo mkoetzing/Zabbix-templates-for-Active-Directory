@@ -22,31 +22,18 @@ Import the template ADReplication.xml and the template ADAudit.xml in your zabbi
 User profile has been blocked
 
 Delete secure local group
-
 User name has been modify
-
 Modify secure local group
-
 Log in successfully
-
 Modify user profile
-
 Delete member local secure group
-
 Add member local secure group
-
 User profile has been created
-
 Log in denied
-
 Attempt to reset the account password
-
 User profile disabled
-
 Secure local group has been created
-
 User profile deleted
-
 Clear audit journal
 
 ![audit](https://user-images.githubusercontent.com/39965096/51258362-d9c9c000-19ba-11e9-932e-fc90228cd6a2.PNG)
