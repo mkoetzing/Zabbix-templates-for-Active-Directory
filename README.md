@@ -3,8 +3,10 @@ This repository contains zabbix templates for Active Directory(AD) and PowerShel
 # Requirements
 PowerShell 3.00+ version
 # Installation
-Add userparameter in your zabbix_agentd.conf by analogy with userparameter.conf
-Import the template ADReplication.xml and the template ADAudit.xml in your zabbix installation
+1. Add userparameter in your zabbix_agentd.conf by analogy with userparameter.conf
+2. Create dir "C:\Program Files\Zabbix Agent\scripts" and Copy ADReplication.ps1
+3. Import the template ADReplication.xml and the template ADAudit.xml in your zabbix installation
+ 
 # Description
 1). LLD finds a active directory replication partners
 
@@ -39,5 +41,9 @@ User profile has been blocked
 ![audit](https://user-images.githubusercontent.com/39965096/51258362-d9c9c000-19ba-11e9-932e-fc90228cd6a2.PNG)
 
 
+# Troubleshoot
+
+If you have error "Timeout while executing a shell script"
+please edit in your zabbix_agentd.conf parameter Timeout=30, default 10 sec.
 
 Tested on windows servers 2008r2 2012r2 2016
